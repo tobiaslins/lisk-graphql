@@ -44,6 +44,9 @@ export default class Transaction {
   @Field()
   recipientId: string;
 
+  @Field({ nullable: true })
+  recipientName: string;
+
   @Field()
   recipientPublicKey: string;
 
