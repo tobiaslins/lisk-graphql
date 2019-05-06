@@ -5,7 +5,10 @@ import { buildSchema } from "type-graphql";
 
 import TransactionResolver from "./transaction/resolver";
 
+import { fetchDelegates } from "./delegate-resolver";
+
 async function bootstrap() {
+  await fetchDelegates();
   const schema = await buildSchema({
     resolvers: [TransactionResolver],
     emitSchemaFile: path.resolve(__dirname, "schema.gql")
