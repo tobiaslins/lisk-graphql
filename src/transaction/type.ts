@@ -51,7 +51,16 @@ export default class Transaction {
   recipientPublicKey: string;
 
   @Field()
-  recipientSecondPublicKey: string;
+  signature: string;
+
+  @Field()
+  signSignature: string;
+
+  @Field()
+  signatures: string[];
+
+  @Field()
+  asset: any;
 
   @Field()
   confirmations: number;
