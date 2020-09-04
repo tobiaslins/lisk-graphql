@@ -15,7 +15,7 @@
     "graphql": "^14.2.1",
     "lisk-elements": "^2.0.0",
     "reflect-metadata": "^0.1.13",
-    "type-graphql": "^0.17.4"
+    "type-graphql": "^0.17.6"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
