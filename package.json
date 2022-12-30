@@ -13,7 +13,7 @@
     "apollo-server": "^2.4.8",
     "axios": "^0.18.0",
     "graphql": "^14.2.1",
-    "lisk-elements": "^2.0.0",
+    "lisk-elements": "^5.2.2",
     "reflect-metadata": "^0.1.13",
     "type-graphql": "^0.17.4"
   },
